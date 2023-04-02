@@ -1,0 +1,17 @@
+Source: eduice-primary
+Section: misc
+Priority: optional
+Maintainer: MountainOS <mountainoslinux@gmail.com>
+Homepage: mountainlinuxos.wordpress.com/eduice
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 3.9.2
+Rules-Requires-Root: no
+
+Package: eduice-primary
+Architecture: all
+Depends: gnome-paint, tuxtype, tuxmath, kanagram
+Multi-Arch: foreign
+Description: EduIce tools primary
+ This package installs primary education apps for MountainOS EduIce
+ .
+ second paragraph
